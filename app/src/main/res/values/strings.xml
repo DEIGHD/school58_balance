@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Проверка баланса (школа58.рф)</string>
+    <string name="title_activity_card_id">Номер карты</string>
+    <string name="title_main_activity">Баланс</string>
+    <string name="title_last_change">Последнее изменение:</string>
+
+    <string name="button_check">Проверить</string>
+    <string name="edit_text_card_id_hint">Введите номер карты</string>
+    
+    <string name="refresh_balance_status_in_process">Обновление&#8230;</string>
+    <string name="refresh_balance_status_success">Обновлено</string>
+    <string name="refresh_balance_status_failed">Ошибка</string>
+    
+    <string name="residue_status_spent">Потрачено</string>
+    <string name="residue_status_enrolled">Зачислено</string>
+    <string name="notification_message">%1$s %2$s %3$s Баланс: %4$s</string>
+    <string name="previous_residue_message">%1$s %2$s %3$s</string>
+
+    <string name="alert_dialog_permission">Отменив разрешение, вы не сможете использовать приложение</string>
+    <string name="alert_dialog_permission_positive_button">Попробовать ещё раз</string>
+    <string name="alert_dialog_permission_negative_button">Не сейчас</string>
+    <string name="alert_dialog_permission_not_show">Для продолжения работы с приложением перейдите в раздел настроек и включите разрешение на доступ к хранилищу</string>
+    <string name="alert_dialog_permission_not_show_positive_button">Перейти к настройкам</string>
+    <string name="alert_dialog_permission_not_show_negative_button">Не сейчас</string>
+</resources>

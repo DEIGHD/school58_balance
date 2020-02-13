@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:minHeight="68dp">
+
+    <LinearLayout
+        android:id="@+id/item_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/recyclerview_item"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/recycler_view_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:foregroundGravity="center_vertical"
+            android:paddingBottom="15dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            tools:text="name" />
+
+        <TextView
+            android:id="@+id/recycler_view_item_residue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@color/yellow"
+            android:foregroundGravity="center_vertical"
+            android:padding="5dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            tools:text="residue" />
+
+        <TextView
+            android:id="@+id/recycler_view_item_last_change_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:foregroundGravity="center_vertical"
+            android:paddingTop="15dp"
+            android:paddingBottom="8dp"
+            android:text="@string/title_last_change"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/recycler_view_item_last_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@color/red"
+            android:foregroundGravity="center_vertical"
+            android:padding="5dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:visibility="gone"
+            tools:text="last change"
+            tools:visibility="visible" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
